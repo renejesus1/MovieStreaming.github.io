@@ -102,7 +102,7 @@ nav {
   }
   
   nav ul li a:hover {
-    background-color: #06d99d;
+    background-color: #06afd9;
   }
 
 
@@ -137,5 +137,62 @@ nav {
   
   .contenedor-imagen:hover .informacion-imagen {
     display: block;
+  }
+  .nav li a{
+    background-color: #06d99d;
+    color: #dbcccc;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  nav{
+    display: flex; /* Establece el contenedor como un flexbox */
+    align-items: center; /* Centra verticalmente los elementos hijos del contenedor */
+    justify-content: center; /* Centra horizontalmente los elementos hijos del contenedor */
+     position:fixed
+   
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: red;
+  }
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  .menu-vertical li:hover{
+    background-color: rgb(37, 4, 65);
+  }
+  
+  .menu-vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+  }
+  
+  #html{
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;
+  
   }
   
