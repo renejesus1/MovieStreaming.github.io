@@ -196,3 +196,226 @@ nav {
   
   }
   
+
+  /*aventuras*/
+  .aventuras1{
+    position: relative;
+    display: inline-block;
+    width: 200px; /* ajustar el ancho según necesidades */
+    height: 200px; /* ajustar la altura según necesidades */
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .aventuras1 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  } 
+
+  .inf{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(7, 7, 10, 0.5);
+    color: #b41313;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .aventuras1:hover .informacion-imagen {
+    display: block;
+  }
+  #avn{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  /*acciopn*/
+
+  .cf{
+    position: relative;
+    display: inline-block;
+    width: 200px; /* ajustar el ancho según necesidades */
+    height: 200px; /* ajustar la altura según necesidades */
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .cf img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  } 
+
+  .informacion-imagen{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(7, 7, 10, 0.5);
+    color: #b41313;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .cf:hover .informacion-imagen {
+    display: block;
+  }
+  #cf{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+/*Comedia*/
+
+.co{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.co img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.co:hover .informacion-imagen {
+  display: block;
+}
+#co{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Crimen*/
+
+.cr{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.cr img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.cr:hover .informacion-imagen {
+  display: block;
+}
+#cr{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Policiacas*/
+
+.po{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.po img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.po:hover .informacion-imagen {
+  display: block;
+}
+#po{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Terrror*/
+
+.te{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.te img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.te:hover .informacion-imagen {
+  display: block;
+}
+#te{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
