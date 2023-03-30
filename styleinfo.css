@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(31, 24, 48);
+}
+.container {
+display: flex;
+align-items: center;
+}
+.image {
+max-width: 100%;
+padding-top: 20px;
+
+}
+.description {
+max-width: 25%;
+
+}
+h1{
+text-align: center;
+
+}
+footer {
+background-color: #000000;
+color: rgb(255, 252, 252);
+padding: 10px;
+text-align: center;
+}
