@@ -1,0 +1,422 @@
+body {
+    background-color: #292940;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#em4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#rz3{
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif
+}
+#rrj4{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+header {
+    background-color: #292940;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 2px #333;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(31, 24, 48);
+    box-shadow: 2px 2px 10px #06053c;
+}
+
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+  
+
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 252, 252);
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #dbcccc;
+    text-decoration: none;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #06afd9;
+  }
+
+
+
+  .contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    width: 200px; /* ajustar el ancho según necesidades */
+    height: 200px; /* ajustar la altura según necesidades */
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .contenedor-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  
+  .informacion-imagen {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(4, 84, 97, 0.5);
+    color: #f6f5f5;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .contenedor-imagen:hover .informacion-imagen {
+    display: block;
+  }
+  .nav li a{
+    background-color: #06d99d;
+    color: #dbcccc;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  nav{
+    display: flex; /* Establece el contenedor como un flexbox */
+    align-items: center; /* Centra verticalmente los elementos hijos del contenedor */
+    justify-content: center; /* Centra horizontalmente los elementos hijos del contenedor */
+     position:fixed
+   
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: red;
+  }
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  .menu-vertical li:hover{
+    background-color: rgb(37, 4, 65);
+  }
+  
+  .menu-vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+  }
+  
+  #html{
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;
+  
+  }
+  
+
+  /*aventuras*/
+  .aventuras1{
+    position: relative;
+    display: inline-block;
+    width: 200px; /* ajustar el ancho según necesidades */
+    height: 200px; /* ajustar la altura según necesidades */
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .aventuras1 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  } 
+
+  .inf{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(7, 7, 10, 0.5);
+    color: #b41313;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .aventuras1:hover .informacion-imagen {
+    display: block;
+  }
+  #avn{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  /*acciopn*/
+
+  .cf{
+    position: relative;
+    display: inline-block;
+    width: 200px; /* ajustar el ancho según necesidades */
+    height: 200px; /* ajustar la altura según necesidades */
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .cf img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  } 
+
+  .informacion-imagen{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(7, 7, 10, 0.5);
+    color: #b41313;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .cf:hover .informacion-imagen {
+    display: block;
+  }
+  #cf{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+/*Comedia*/
+
+.co{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.co img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.co:hover .informacion-imagen {
+  display: block;
+}
+#co{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Crimen*/
+
+.cr{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.cr img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.cr:hover .informacion-imagen {
+  display: block;
+}
+#cr{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Policiacas*/
+
+.po{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.po img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.po:hover .informacion-imagen {
+  display: block;
+}
+#po{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*Terrror*/
+
+.te{
+  position: relative;
+  display: inline-block;
+  width: 200px; /* ajustar el ancho según necesidades */
+  height: 200px; /* ajustar la altura según necesidades */
+  overflow: hidden;
+  margin: 20px;
+}
+
+.te img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} 
+
+.informacion-imagen{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(7, 7, 10, 0.5);
+  color: #b41313;
+  font-size: 17px;
+  text-align: center;
+}
+
+.te:hover .informacion-imagen {
+  display: block;
+}
+#te{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
